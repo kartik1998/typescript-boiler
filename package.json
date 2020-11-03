@@ -4,6 +4,7 @@
   "description": "Library for commonly used functions while developing a slackbot ",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc -p tsconfig.json",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix"
   },
