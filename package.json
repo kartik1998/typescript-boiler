@@ -1,0 +1,26 @@
+{
+  "name": "slackbot-utils",
+  "version": "1.0.0",
+  "description": "Library for commonly used functions while developing a slackbot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/kartik_hyperverge/slackbot-utils.git"
+  },
+  "keywords": [
+    "slackbot",
+    "bot",
+    "web-api",
+    "slackClient",
+    "@slack/web-api"
+  ],
+  "author": "Kartik Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kartik_hyperverge/slackbot-utils/issues"
+  },
+  "homepage": "https://gitlab.com/kartik_hyperverge/slackbot-utils#readme"
+}
