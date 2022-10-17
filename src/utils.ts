@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 const numberRegExp = new RegExp('^[0-9]+$');
 
 function isNumber(value) {
@@ -14,4 +16,11 @@ function isBoolean(value) {
   return false;
 }
 
-export { isNumber, isBoolean };
+/**
+ * generates a random uuid string
+ */
+function uuid() {
+  return uuidv4();
+}
+
+export { isNumber, isBoolean, uuid };
