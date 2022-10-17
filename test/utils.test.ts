@@ -34,3 +34,11 @@ describe('utils -> isBoolean', function () {
     testCases.forEach((c) => expect(utils.isBoolean(c)).to.be.false);
   });
 });
+
+describe('utils -> uuid', function () {
+  it('should return random uuid strings', function () {
+    var set = new Set();
+    for (let i = 0; i < 100; i++) set.add(utils.uuid());
+    expect(set.size).to.equal(100);
+  });
+});
