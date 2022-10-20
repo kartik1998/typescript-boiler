@@ -16,16 +16,7 @@ describe('utils -> isNumber', function () {
 
 describe('utils -> isBoolean', function () {
   it('should return true when boolean values are passed', function () {
-    const testCases = [
-      true,
-      false,
-      'true',
-      'false',
-      'True',
-      'False',
-      'tRuE',
-      'fAlsE',
-    ];
+    const testCases = [true, false, 'true', 'false', 'True', 'False', 'tRuE', 'fAlsE'];
     testCases.forEach((c) => expect(utils.isBoolean(c)).to.be.true);
   });
 

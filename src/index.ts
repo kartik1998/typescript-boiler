@@ -43,9 +43,7 @@ function run(args: Array<string>) {
     try {
       fs.accessSync(filepath, fs.constants.R_OK);
     } catch (accesErr) {
-      console.log(
-        `File path: ${filepath} must be readable by the current user & process`,
-      );
+      console.log(`File path: ${filepath} must be readable by the current user & process`);
       return;
     }
     // ... instantiate the Application that will execute the commands from the file
